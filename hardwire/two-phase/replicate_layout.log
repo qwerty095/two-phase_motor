@@ -1,0 +1,245 @@
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 359:Plugin executed on: 'win32'
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 360:Plugin executed with python version: '3.9.14 (main, Dec 23 2022, 23:36:19) [MSC v.1934 64 bit (AMD64)]'
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 361:KiCad build version: (6.0.11)
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 362:Plugin version: 1.3.1
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 363:Frame repr: <wx._core.Frame object at 0x000001E086982EE0>
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 387:Preparing replicator with C20 as a reference
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 113:getting a list of all footprints on board
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 435:source anchor footprint is 'C20'
+Located on: ['DRIVER_1']
+With filenames: ['DRIVER.kicad_sch']
+With sheet_id:['DRIVER_1']
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 442:Corresponding footprints are 
+[('C33', ['DRIVER_2']), ('C46', ['DRIVER_3']), ('C59', ['DRIVER_4']), ('C20', ['DRIVER_1'])]
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 454:Showing dialog
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:constructing a list of sheets suitable for replication on level:'DRIVER_1', file:'DRIVER.kicad_sch'
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 414:suitable sheets are:[['DRIVER_2'], ['DRIVER_3'], ['DRIVER_4']]
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1327:Level selected: ['DRIVER_1']
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1162:Filtering list of tracks
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 460:Toolbar position: wx.Point(3798, 96)
+02-27 11:30:44 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 465:Dialog position: wx.Point(3434, 96)
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 377:constructing a list of sheets suitable for replication on level:'DRIVER_1', file:'DRIVER.kicad_sch'
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 414:suitable sheets are:[['DRIVER_2'], ['DRIVER_3'], ['DRIVER_4']]
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 207:Replicating layout
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 223:Starting replication of sheets: [['DRIVER_2'], ['DRIVER_3'], ['DRIVER_4']]
+on level: ['DRIVER_1']
+with tracks=True, zone=True, text=True, text=True, intersecting=False, remove=False, locked footprints=False, group_only=False
+02-27 11:33:02 root 299:updating GUI message: 'Preparing for replication'
+02-27 11:33:02 root 304:updating GUI with: 0
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 293:Getting the list of source footprints
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 303:Getting the list of all the remaining footprints
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting source tracks
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1162:Filtering list of tracks
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 314:Getting source zones
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 318:Getting source text items
+02-27 11:33:02 root 304:updating GUI with: 66
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 322:Getting source drawing items
+02-27 11:33:02 root 299:updating GUI message: 'Replicating footprints'
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 713:Replicating footprints
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Replicating footprints on sheet ['DRIVER_2']
+02-27 11:33:02 root 304:updating GUI with: 31
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Replicating footprints on sheet ['DRIVER_3']
+02-27 11:33:02 root 304:updating GUI with: 63
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 719:Replicating footprints on sheet ['DRIVER_4']
+02-27 11:33:02 root 304:updating GUI with: 92
+02-27 11:33:02 root 299:updating GUI message: 'Replicating tracks'
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 878:Replicating tracks
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating tracks on sheet ['DRIVER_2']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_2'] :[('+12V', '+12V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_2/33-35V_on_active'), ('+24V', '+24V'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating tracks on sheet ['DRIVER_3']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_3'] :[('+12V', '+12V'), ('+24V', '+24V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_3/33-35V_on_active'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 root 304:updating GUI with: 36
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 884:Replicating tracks on sheet ['DRIVER_4']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_4'] :[('+12V', '+12V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_4/33-35V_on_active'), ('+24V', '+24V'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 root 299:updating GUI message: 'Replicating zones'
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 938:Replicating zones
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 945:Replicating zones on sheet ['DRIVER_2']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_2'] :[('+12V', '+12V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_2/33-35V_on_active'), ('+24V', '+24V'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 945:Replicating zones on sheet ['DRIVER_3']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_3'] :[('+12V', '+12V'), ('+24V', '+24V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_3/33-35V_on_active'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 945:Replicating zones on sheet ['DRIVER_4']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 708:Net pairs for sheet ['DRIVER_4'] :[('+12V', '+12V'), ('/DRIVER_1/33-35V_on_active', '/DRIVER_4/33-35V_on_active'), ('+24V', '+24V'), ('+5V', '+5V'), ('GND', 'GND')]
+02-27 11:33:02 root 299:updating GUI message: 'Replicating text'
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1018:Replicating text
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text on sheet ['DRIVER_2']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text on sheet ['DRIVER_3']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1025:Replicating text on sheet ['DRIVER_4']
+02-27 11:33:02 root 299:updating GUI message: 'Replicating drawings'
+02-27 11:33:02 root 304:updating GUI with: 0
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1059:Replicating drawings
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings on sheet ['DRIVER_2']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings on sheet ['DRIVER_3']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1065:Replicating drawings on sheet ['DRIVER_4']
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 223:Replication complete
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 226:Letting the user know there are some issues with replicated design
+02-27 11:33:02 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 230:Looks like the design has an exotic connectivity that is not supported by the plugin
+ Make sure that you check the connectivity around:
+Footprint R44, pad 1
+Footprint R61, pad 2
+Footprint U6, pad 2
+Footprint R22, pad 1
+Footprint D20, pad 2
+Footprint D13, pad 2
+Footprint D14, pad 2
+Footprint U8, pad 2
+Footprint Q10, pad 3
+Footprint R48, pad 2
+Footprint Q7, pad 1
+Footprint D19, pad 1
+Footprint Q6, pad 2
+Footprint D12, pad 1
+Footprint R29, pad 2
+Footprint R59, pad 1
+Footprint C43, pad 2
+Footprint C22, pad 2
+Footprint D17, pad 1
+Footprint R25, pad 2
+Footprint C42, pad 2
+Footprint R33, pad 2
+Footprint R24, pad 1
+Footprint U10, pad 6
+Footprint U9, pad 7
+Footprint C59, pad 1
+Footprint U11, pad 7
+Footprint U7, pad 2
+Footprint R47, pad 1
+Footprint C30, pad 2
+Footprint R36, pad 1
+Footprint U6, pad 8
+Footprint Q8, pad 3
+Footprint C37, pad 1
+Footprint U10, pad 2
+Footprint R46, pad 2
+Footprint U8, pad 8
+Footprint R40, pad 1
+Footprint Q12, pad 1
+Footprint D10, pad 2
+Footprint R56, pad 2
+Footprint C49, pad 1
+Footprint R30, pad 2
+Footprint R57, pad 1
+Footprint C36, pad 1
+Footprint C57, pad 2
+Footprint D18, pad 2
+Footprint R31, pad 2
+Footprint D7, pad 1
+Footprint C40, pad 1
+Footprint R41, pad 2
+Footprint R46, pad 1
+Footprint R58, pad 2
+Footprint C55, pad 2
+Footprint R53, pad 2
+Footprint C29, pad 1
+Footprint Q4, pad 3
+Footprint R35, pad 2
+Footprint D6, pad 2
+Footprint D10, pad 1
+Footprint C56, pad 2
+Footprint C23, pad 1
+Footprint R61, pad 1
+Footprint R56, pad 1
+Footprint U6, pad 1
+Footprint U9, pad 3
+Footprint D20, pad 1
+Footprint U10, pad 8
+Footprint U11, pad 3
+Footprint C44, pad 2
+Footprint D14, pad 1
+Footprint Q9, pad 2
+Footprint R60, pad 2
+Footprint R31, pad 1
+Footprint U8, pad 1
+Footprint R49, pad 2
+Footprint Q5, pad 3
+Footprint Q11, pad 1
+Footprint Q6, pad 1
+Footprint U9, pad 6
+Footprint C55, pad 1
+Footprint R29, pad 1
+Footprint U11, pad 6
+Footprint R35, pad 1
+Footprint R43, pad 2
+Footprint R32, pad 2
+Footprint C42, pad 1
+Footprint R39, pad 2
+Footprint U9, pad 2
+Footprint U10, pad 4
+Footprint C24, pad 1
+Footprint R33, pad 1
+Footprint C35, pad 2
+Footprint U11, pad 2
+Footprint R45, pad 2
+Footprint R49, pad 1
+Footprint Q10, pad 1
+Footprint Q7, pad 3
+Footprint U7, pad 7
+Footprint U9, pad 5
+Footprint D16, pad 2
+Footprint R54, pad 2
+Footprint U11, pad 5
+Footprint C53, pad 1
+Footprint C31, pad 2
+Footprint U6, pad 4
+Footprint U10, pad 1
+Footprint R26, pad 2
+Footprint R23, pad 1
+Footprint R42, pad 2
+Footprint R21, pad 2
+Footprint R62, pad 2
+Footprint R55, pad 2
+Footprint U8, pad 4
+Footprint R44, pad 2
+Footprint R52, pad 1
+Footprint D9, pad 2
+Footprint R38, pad 1
+Footprint U6, pad 7
+Footprint D8, pad 2
+Footprint C50, pad 1
+Footprint R30, pad 1
+Footprint R28, pad 2
+Footprint U8, pad 7
+Footprint Q8, pad 1
+Footprint R42, pad 1
+Footprint R58, pad 1
+Footprint R59, pad 2
+Footprint R51, pad 1
+Footprint D9, pad 1
+Footprint D15, pad 2
+Footprint R60, pad 1
+Footprint U7, pad 3
+Footprint Q9, pad 1
+Footprint R28, pad 1
+Footprint R47, pad 2
+Footprint C38, pad 2
+Footprint R27, pad 2
+Footprint R37, pad 1
+Footprint C48, pad 2
+Footprint C27, pad 1
+Footprint C33, pad 1
+Footprint R40, pad 2
+Footprint Q4, pad 1
+Footprint U10, pad 7
+Footprint U7, pad 6
+Footprint R43, pad 1
+Footprint C46, pad 1
+Footprint C25, pad 2
+Footprint Q12, pad 2
+Footprint R32, pad 1
+Footprint R34, pad 2
+Footprint D15, pad 1
+Footprint R57, pad 2
+Footprint R45, pad 1
+Footprint D11, pad 2
+Footprint Q5, pad 1
+Footprint R54, pad 1
+Footprint Q11, pad 3
+Footprint U6, pad 6
+Footprint D19, pad 2
+Footprint U7, pad 5
+Footprint C29, pad 2
+Footprint C51, pad 2
+Footprint R50, pad 1
+Footprint R26, pad 1
+Footprint R21, pad 1
+Footprint U8, pad 6
+
